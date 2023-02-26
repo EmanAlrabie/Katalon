@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetUsersList</name>
+   <name>Update User</name>
    <tag></tag>
-   <elementGuidId>f2fdb5a8-6c92-48cf-87f3-91b7f4368c01</elementGuidId>
+   <elementGuidId>59787054-7874-47f9-ae7c-f6cc03e86866</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;${name}\&quot;,\n    \&quot;job\&quot;: \&quot;zion resident\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>fdc9d9ed-a574-4c72-a7b2-bb9c2d2cf2e5</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>8.5.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://reqres.in/api/users?page=2</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>https://${EndPoint}/api/users/2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -24,6 +36,20 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.Name</defaultValue>
+      <description></description>
+      <id>67aeb92c-b0a3-4c6e-b308-ab2a54ce4ca5</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.EndPoint</defaultValue>
+      <description></description>
+      <id>22a8a08b-2477-4311-8e56-207e590e6a74</id>
+      <masked>false</masked>
+      <name>EndPoint</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -43,19 +69,6 @@ WS.verifyResponseStatusCode(response, 200)
 
 assertThat(response.getStatusCode()).isEqualTo(200)
 
-WS.verifyElementPropertyValue(response, 'data[1].first_name', &quot;Lindsay&quot;)
-
-
-
-WS.verifyResponseStatusCode(response, 200)
-
-assertThat(response.getStatusCode()).isEqualTo(200)
-
-
-
-
-
-
-WS.verifyElementPropertyValue(response, 'data[0].avatar', &quot;https://reqres.in/img/faces/7-image.jpg&quot;)</verificationScript>
+WS.verifyElementPropertyValue(response, 'name', &quot;Lindsay&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

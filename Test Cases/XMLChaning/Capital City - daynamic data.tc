@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Capital City - daynamic data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>116a41b2-ddec-4297-863f-c3548d4411fc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>758add2f-0010-4b9c-b5da-eda8ae679daa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'US'</defaultValue>
+      <description></description>
+      <id>758add2f-0010-4b9c-b5da-eda8ae679daa</id>
+      <masked>false</masked>
+      <name>CodeOfCountry</name>
+   </variable>
+</TestCaseEntity>

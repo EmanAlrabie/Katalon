@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>dde5b552-8fbc-45fa-918a-6f5e053e932e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//img[@alt='Follow on Twitter'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>fe79d452-ca63-4876-8ccb-2a29dcefea2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/images/icons/twitter.png</value>
+      <webElementGuid>1c5927c5-c404-49a6-a5fe-8cf2077938f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Follow on Twitter</value>
+      <webElementGuid>5af76911-3c50-4c09-b575-75c9fd7a46a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Twitter</value>
+      <webElementGuid>6650e05e-7d2e-46b1-8dfe-8aacc1f4eefd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[3]/footer[1]/div[@class=&quot;container footer&quot;]/div[@class=&quot;fifty-right&quot;]/div[1]/div[@class=&quot;social-media-icons&quot;]/p[1]/a[2]/img[1]</value>
+      <webElementGuid>445381b3-d5f2-4106-87c3-e352c98b5b31</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[@alt='Follow on Twitter'])[2]</value>
+      <webElementGuid>5fc5d378-1c2e-4bdf-9788-c4d5ee992533</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div/p/a[2]/img</value>
+      <webElementGuid>ac35c829-499e-4470-aaa3-9edf4e1a5309</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/images/icons/twitter.png' and @alt = 'Follow on Twitter' and @title = 'Twitter']</value>
+      <webElementGuid>0214e8c8-8b85-4b5c-b0ba-ea7248d47345</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

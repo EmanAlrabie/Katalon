@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>QA</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'AN'</initValue>
-      <name>CountryCode</name>
+      <initValue>'Lindsay'</initValue>
+      <name>Name</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Test'</initValue>
-      <name>Name</name>
+      <initValue>'reqres.in'</initValue>
+      <name>EndPoint</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

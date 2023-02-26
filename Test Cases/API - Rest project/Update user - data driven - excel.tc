@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Update user - data driven - excel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>380b2475-fbc2-4b27-91e9-c9235c892d6c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3354fb7b-def8-4af6-a6d3-e539fc7babf8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Eman'</defaultValue>
+      <description></description>
+      <id>3354fb7b-def8-4af6-a6d3-e539fc7babf8</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+</TestCaseEntity>
